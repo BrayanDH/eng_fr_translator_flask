@@ -42,7 +42,7 @@ Open your web browser and visit http://localhost:3000 to access the Movie Review
 The Movie Review Website utilizes the following dependencies:
 
 - Flask
-- ibm-watson
+- IBM Watson Language Translator
 - python-dotenv
 - Docker
   Please refer to the requirements.txt file for the complete list of dependencies and their versions.
