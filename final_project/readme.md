@@ -7,7 +7,7 @@ This project is an English to French Translation Website developed using Flask, 
 - Translation Interface: Users can enter English text and receive the corresponding French translation.
 - User-friendly Design: The website offers an intuitive and easy-to-use interface for a seamless translation experience.
 
-## To run eng_fr_translator locally, follow these steps:
+# To run eng_fr_translator locally, follow these steps:
 
 Install Docker on your machine: [Docker Installation Guide ](https://docs.docker.com/engine/install/)
 
