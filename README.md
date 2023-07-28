@@ -1,4 +1,4 @@
-# Introduction
+# English to French Translation Website
 
 This project is an English to French Translation Website developed using Flask, a popular web framework for Python. The main objective of this project is to provide a user-friendly platform for translating English text into French.
 
@@ -89,10 +89,6 @@ Install Python on your machine: [Python Installation](https://www.python.org/dow
    ```
 
    This will start the Flask server, and the application will be available at http://localhost:8080.
-
-Once you have completed these steps, you can access the English to French Translation Website by opening your web browser and visiting http://localhost:8080. From there, you can use the translation interface to enter English text and receive the corresponding French translation.
-
-Open your web browser and visit http://localhost:8080 to access the Movie Review Website.
 
 # Dependencies
 
