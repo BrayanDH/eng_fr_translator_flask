@@ -50,6 +50,8 @@ Install Docker on your machine: [Docker Installation Guide ](https://docs.docker
   docker run -p 8080:8080 eng_fr_translator_flask
   ```
 
+5. Open a web browser and go to `http://localhost:8080` to access the Todo App.
+
 To run the Todo App locally without docker, follow these steps:
 
 Install Python on your machine: [Python Installation](https://www.python.org/downloads/)
