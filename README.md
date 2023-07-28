@@ -51,7 +51,8 @@ Install Docker on your machine: [Docker Installation Guide ](https://docs.docker
   ```
 
 To run the Todo App locally without docker, follow these steps:
-Install Docker on your machine: [Python Installation](https://www.python.org/downloads/)
+
+Install Python on your machine: [Python Installation](https://www.python.org/downloads/)
 
 1. Clone the repository: Open a terminal and clone the `eng_fr_translator_flask` project repository from GitHub:
 
