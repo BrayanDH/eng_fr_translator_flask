@@ -1,51 +1,71 @@
-# Data Visualization Final Project (Dash)
+# English to French Translation Website
 
-This project is a Data Visualization Final Project developed using Dash, a web application framework for Python. The primary objective of this project is to create an interactive dashboard that visualizes US Domestic Airline Flights Performance data.
+This project is an English to French Translation Website developed using Flask, a popular web framework for Python. The main objective of this project is to provide a user-friendly platform for translating English text into French.
 
-## Features
+# Features
 
-- Yearly Airline Performance Report: Users can view monthly flight cancellation data, average flight time by reporting airline, percentage of diverted airport landings per reporting airline, number of flights from each state, and number of flights to destination state by reporting airline.
-- Yearly Average Flight Delay Statistics: Users can view average carrier delay time, average weather delay time, average NAS delay time, average security delay time, and average late aircraft delay time by airline.
+- Translation Interface: Users can enter English text and receive the corresponding French translation.
+- User-friendly Design: The website offers an intuitive and easy-to-use interface for a seamless translation experience.
+- Dockerized: The website is packaged as a Docker image and can be run locally using Docker.
 
-## Getting Started
+# Getting Started
+
+# API_Key
+
+you need to create an account on IBM Cloud and get your API_Key and URL for the Language Translator service. You can create a free account on IBM Cloud [here](https://cloud.ibm.com/registration).
+
+need to create a .env file in the `machinetranslation` directory of the project and add the following lines to it:
 
 ```
-git clone https://github.com/BrayanDH/Dash_Data_Visualization_Panel.git
+apikey=
+url=
+
 ```
+
+## To run eng_fr_translator locally, follow these steps:
+
+Install Docker on your machine: [Docker Installation Guide ](https://docs.docker.com/engine/install/)
+
+- Clone this repository:
+
+  ```
+  git clone https://github.com/BrayanDH/eng_fr_translator_flask.git
+  ```
 
 - Navigate to the project directory:
 
   ```
-  cd Dash_Data_Visualization_Panel
+  cd eng_fr_translator_flask
   ```
 
 - Build the Docker container:
 
   ```
-  docker build -t Dash_Data_Visualization_Panel .
+  docker build -t eng_fr_translator_flask .
   ```
 
 - Run the container:
 
   ```
-  docker run -p 8080:8080 Dash_Data_Visualization_Panel
+  docker run -p 8080:8080 eng_fr_translator_flask
   ```
 
+5. Open a web browser and go to `http://localhost:8080` to access the Todo App.
+
 To run the Todo App locally without docker, follow these steps:
-Install Docker on your machine: [Python Installation](https://www.python.org/downloads/)
 
-To run the Data Visualization Final Project locally without docker, follow these steps:
+Install Python on your machine: [Python Installation](https://www.python.org/downloads/)
 
-1. Clone this repository:
+1. Clone the repository: Open a terminal and clone the `eng_fr_translator_flask` project repository from GitHub:
 
    ```
-   git clone https://github.com/BrayanDH/Data_Visualization_Final_Project.git
+   git clone https://github.com/BrayanDH/eng_fr_translator_flask.git
    ```
 
 2. Navigate to the project directory:
 
    ```
-   cd Data_Visualization_Final_Project
+   cd eng_fr_translator_flask
    ```
 
 3. Install dependencies:
@@ -54,40 +74,40 @@ To run the Data Visualization Final Project locally without docker, follow these
    pip install -r requirements.txt
    ```
 
-4. Start the application:
+   This will install all the necessary dependencies for the project.
+
+4. Run the application:
 
    ```
-   python app.py
+   python server.py
    ```
 
    or
 
    ```
-   app.py
+   server.py
    ```
 
-5. Open your web browser and visit http://localhost:8050 to access the Data Visualization Final Project.
+   This will start the Flask server, and the application will be available at http://localhost:8080.
 
-## Dependencies
+# Dependencies
 
-The Data Visualization Final Project utilizes the following dependencies:
+The Movie Review Website utilizes the following dependencies:
 
-- Pandas
-- Dash
-- Plotly
+- Flask
+- ibm-watson
+- python-dotenv
+- Docker
+  Please refer to the requirements.txt file for the complete list of dependencies and their versions.
 
-Please refer to the `requirements.txt` file for the complete list of dependencies and their versions.
+# Contributing
 
-## Contributing
+Contributions to the eng_fr_translator_flask are welcome! Feel free to open issues or submit pull requests.
 
-Contributions to the Data Visualization Final Project are welcome! Feel free to open issues or submit pull requests.
-
-## License
+# License
 
 This project is licensed under the MIT License.
 
-## Acknowledgments
+# Acknowledgments
 
 Special thanks to the creators and maintainers of the libraries and frameworks used in this project.
-
----
